@@ -1,3 +1,16 @@
+---
+title: "제발 되라 Grad-CAM"
+excerpt: "제발..."
+
+categories:
+  - Blog
+tags:
+  - Blog
+last_modified_at: 2019-04-13T08:06:00-05:00
+
+---
+
+
 # Grad-CAM: Visual explanations from Deep Networks via Gradient-based Localization
 
 ## Abstract
