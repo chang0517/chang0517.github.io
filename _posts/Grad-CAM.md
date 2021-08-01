@@ -86,3 +86,4 @@ as
         → Feature map k 이후에 GAP던, FC가 와도 관계없이 다시 Conv layer로 넘어오는 Gradient를 받아다가 GAP 방식으로 구한 값
 
         → 구조나 재학습을 하지 않아도 구할 수 있다
+
