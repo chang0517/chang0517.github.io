@@ -3,9 +3,9 @@ title: "Explainability methods for GCNNs"
 excerpt: "XAI"
 
 categories:
-  - xai
+  - paper_xai
 tags:
-  - xai
+  - paper_xai
 use_math: true
 last_modified_at: 2021-08-01T23:13:00-05:00
 
