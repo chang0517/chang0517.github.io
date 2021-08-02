@@ -1,16 +1,4 @@
- 
----
-title: "Explainability methods for graph convolutional neural networks"
-excerpt: "XAI"
 
-categories:
-  - paper
-tags:
-  - paper
-use_math: true
-last_modified_at: 2021-08-02T11:25:00-05:00
-
----
 
 
 # Explainability methods for graph convolutional neural networks
