@@ -42,14 +42,6 @@
                         <li><a href="/categories/computer_vision" class="">computer_vision ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
-
-        <span class="nav__sub-title">Minipedia</span>
-            <ul>
-                {% for category in site.categories %}
-                    {% if category[0] == "minipedia" %}
-                        <li><a href="/categories/minipedia" class="">Minipedia ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
             </ul>
       </li>
   </ul>
