@@ -87,7 +87,8 @@ last_modified_at: 2021-08-01T23:13:00-05:00
 
     - $**L^c_{CAM}[i,j] = ReLU(\sum_{k}w^c_kF_{k,i,j})**$
 
-    ![Explainability%20methods%20for%20graph%20convolutional%20neu%20374dfea2ca124785b5b7d057e326ee06/Untitled.png](Explainability%20methods%20for%20graph%20convolutional%20neu%20374dfea2ca124785b5b7d057e326ee06/Untitled.png)
+![image 4](https://user-images.githubusercontent.com/43038405/127798660-b83cc610-5574-49f9-b412-240a433e7dcd.png)
+
 
 2. Grad-CAM(Gradient-weighted CAM)
     - CAM Method에서 특정 layer이 Convolutional해야 하는 구조적 제한을 해결
