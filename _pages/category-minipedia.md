@@ -1,7 +1,7 @@
 ---
 title: "Minipedia"
 layout: archive
-permalink: categories/minipedia
+permalink: /categories/minipedia
 author_profile: true
 sidebar_main: true
 ---

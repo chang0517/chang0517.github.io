@@ -1,7 +1,7 @@
 ---
 title: "Paper Review (Computer Vision)"
 layout: archive
-permalink: categories/paper_computer_vision
+permalink: /categories/paper_computer_vision
 author_profile: true
 sidebar_main: true
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Paper Review (XAI)"
 layout: archive
-permalink: categories/paper_xai
+permalink: /categories/paper_xai
 author_profile: true
 sidebar_main: true
 ---
