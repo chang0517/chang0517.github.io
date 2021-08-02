@@ -1,4 +1,15 @@
+---
+title: "Explainability methods for GCNNs"
+excerpt: "XAI"
 
+categories:
+  - paper
+tags:
+  - paper
+use_math: true
+last_modified_at: 2021-08-01T23:13:00-05:00
+
+---
 
 
 # Explainability methods for graph convolutional neural networks
@@ -141,4 +152,5 @@
 → 각 방법이 가지고 있는 특징이 있으니 본인의 방법에 맞게 이용하는것이 중요
 
 ex) large graph를 해석할때에는 c-EB가 가장 좋은 방법
+
 
