@@ -1,10 +1,8 @@
 # main links
 main:
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Computer Vision"
+    url: /categories/computer_vision
+  - title: "XAI Paper"
+    url: /categories/paper_xai
+  - title: "Computer Vision Paper"
+    url: /categories/paper_computer_vision
