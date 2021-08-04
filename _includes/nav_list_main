@@ -12,23 +12,14 @@
       </li>
       <li>
         <!--span 태그로 카테고리들을 크게 분류 ex) Paper-->
-        <span class="nav__sub-title">Paper</span>
+        <span class="nav__sub-title">XAI</span>
             <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
             <ul>
-                <!--paper 카테고리 글들을 모아둔 페이지인 /categories/paper_xai 주소의 글로 링크 연결-->
+                <!--paper 카테고리 글들을 모아둔 페이지인 /categories/xai 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "paper_xai" %}
-                        <li><a href="/categories/paper_xai" class="">xai ({{category[1].size}})</a></li>
-                    {% endif %}
-                {% endfor %}
-            </ul>
-            <ul>
-                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/paper_computer_vision 주소의 글로 링크 연결-->
-                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
-                {% for category in site.categories %}
-                    {% if category[0] == "paper_computer_vision" %}
-                        <li><a href="/categories/paper_computer_vision" class="">computer_vision ({{category[1].size}})</a></li>
+                    {% if category[0] == "xai" %}
+                        <li><a href="/categories/xai" class=""> ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
@@ -39,7 +30,7 @@
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시-->
                 {% for category in site.categories %}
                     {% if category[0] == "computer_vision" %}
-                        <li><a href="/categories/computer_vision" class="">computer_vision ({{category[1].size}})</a></li>
+                        <li><a href="/categories/computer_vision" class=""> ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
