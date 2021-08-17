@@ -31,7 +31,7 @@ GNN이 NLP 모델에 구조적인 Inductive bias를 통합시키는데 인기있
     2. 최근 GNN-based NLP 모델들에 적용가능하게 충분히 다루기 쉬워야함
     3. 해당 모델이 어떻게 그 예측까지 갔는지에 대한 통찰력을 제공할 만큼 충분히 신뢰도가 높아야함
 
-    ![Untitled](Interpreting%20Graph%20Neural%20Networks%20for%20NLP%20with%20Di%208df60119655e4225a5db2bac6d4813f4/Untitled.png)
+    ![int    1](https://user-images.githubusercontent.com/43038405/129679127-7e4e9180-561c-493a-9fc1-0547380bf7b8.png)
 
     - 해석에 가장 간단한 방법 → Erasure Search
         - 모델 예측에 영향을 주지 않고 완전히 제거될 수 있는 최대한의 특징들을 찾는 것
@@ -63,7 +63,7 @@ GNN이 NLP 모델에 구조적인 Inductive bias를 통합시키는데 인기있
 - 모든 layer k에서 이전 layer의 노드들의 representation를 기초로 하여 각각의 노드에서  node representation $h_u^{k}$를 계산
 - k>0에서 GNN은 Message function M과 aggregation function A를 통해 정의
 
-    ![Untitled](Interpreting%20Graph%20Neural%20Networks%20for%20NLP%20with%20Di%208df60119655e4225a5db2bac6d4813f4/Untitled%201.png)
+![int 2_1](https://user-images.githubusercontent.com/43038405/129679491-0b9c454e-ff19-43b4-8f1b-31ec11662965.png)
 
     → $r_{u,v}$: node u와 v사이의 연관관계, $N(v)$: v의 이웃 노드들
 
@@ -87,8 +87,7 @@ GNN이 NLP 모델에 구조적인 Inductive bias를 통합시키는데 인기있
 
         - About $z_{u,v}^{(k)}$, parameter $\pi$
 
-            ![Untitled](Interpreting%20Graph%20Neural%20Networks%20for%20NLP%20with%20Di%208df60119655e4225a5db2bac6d4813f4/Untitled%202.png)
-
+            ![int 2_2](https://user-images.githubusercontent.com/43038405/129679599-44703c7b-e992-467d-a463-63e93884b1e4.png)
             - 특징
                 - $\pi$ : 함수 g의 변수 / single-layer neural network로 보충
                 - Gate value $z_{u,v}^{(k)}$는 각각의 prediction에서 하나한 계산 됨, but $\pi$ 변수는 여러 Datapoint를 이용해 학습되고 학습 단계에서 보이지않는 예시들에서의 예측을 설명하는데 사용됨
@@ -106,8 +105,7 @@ GNN이 NLP 모델에 구조적인 Inductive bias를 통합시키는데 인기있
 - 모든 layer의 모든 edge에서 gate를 계산
 - Figure 1에서 보여줬던 모델의 sparsified version을 실행
 
-    ![Untitled](Interpreting%20Graph%20Neural%20Networks%20for%20NLP%20with%20Di%208df60119655e4225a5db2bac6d4813f4/Untitled.png)
-
+    ![int 12](https://user-images.githubusercontent.com/43038405/129679704-f9d81f09-549f-4992-a2fc-f452fdbaf3c5.png)
 - 첫번째 layer - original model의 message는 equation 3로 계산
 - 이후 layer - mask된 message들을 합쳐 Equation 2를 이용해 $h_v'^k$를 계산 → 다음 mask된 message 구할때 사용
 
@@ -127,7 +125,8 @@ GNN이 NLP 모델에 구조적인 Inductive bias를 통합시키는데 인기있
 
         → Objective function을 정의
 
-        ![Untitled](Interpreting%20Graph%20Neural%20Networks%20for%20NLP%20with%20Di%208df60119655e4225a5db2bac6d4813f4/Untitled%203.png)
+        ![int 1231](https://user-images.githubusercontent.com/43038405/129679776-595f16ec-9567-466b-8a53-1fded6b293b6.png)
+
 
         - 문제
             - 이 함수는 미분불가능한 함수... → Gradient-based Optimization 사용 불가
@@ -160,7 +159,7 @@ GNN이 NLP 모델에 구조적인 Inductive bias를 통합시키는데 인기있
 
 - GraphMask VS Erasure search VS Integrated Gradients ... (비교)
 
-    ![Untitled](Interpreting%20Graph%20Neural%20Networks%20for%20NLP%20with%20Di%208df60119655e4225a5db2bac6d4813f4/Untitled%204.png)
+    ![int a](https://user-images.githubusercontent.com/43038405/129680056-836f2512-6926-48f0-b2b3-f6edcae2eb67.png)
 
     - task가 x>y인지를 예측하는 것이기에 모델은 type x만 유지된 상태로 완벽한 점수를 보임
     - x≤y인 곳에서는 모든 edge가 drop된 상태로 완벽한 점수를 보임
@@ -185,8 +184,7 @@ GNN이 NLP 모델에 구조적인 Inductive bias를 통합시키는데 인기있
 
 - 어떤 edge type이 모델의 3개의 layer에서 사용되었는지 확인 (Table 2)
 
-    ![Untitled](Interpreting%20Graph%20Neural%20Networks%20for%20NLP%20with%20Di%208df60119655e4225a5db2bac6d4813f4/Untitled%205.png)
-
+    ![int b](https://user-images.githubusercontent.com/43038405/129680046-c617e4b6-d99a-40f1-81a8-b0fc6dc9c86a.png)
     → DeCao 논문에서는 COREF edge가 모델에 좋은 이득을 준다고 했는데 우리 결과론 아님
 
     → COREF는 MATCH와 2.3%만 중복됨.
@@ -203,8 +201,7 @@ GNN이 NLP 모델에 구조적인 Inductive bias를 통합시키는데 인기있
     - 주어진 서술부의 argument를 식별하고 의미론적 역할을 부여하는것
     - 문장 성분의 의미역을 결정하는 것 → 문장의 각 성분이 다른 구조로 배열되어도 같은 의미일 수 있다.(wiki)
 
-        ![Untitled](Interpreting%20Graph%20Neural%20Networks%20for%20NLP%20with%20Di%208df60119655e4225a5db2bac6d4813f4/Untitled%206.png)
-
+        ![int c](https://user-images.githubusercontent.com/43038405/129680042-b23aec53-e145-4d3c-9d5a-8d638d914361.png)
 - Step 1
     - 이 GNN은 모든 message에서 스칼라, 곡선형 gates를 사용
     - 해석을 위한 순진한 방법은 그들의 value값을 검사하는것 → 각각의 message의 중요도를 필연적으로 반영 x
