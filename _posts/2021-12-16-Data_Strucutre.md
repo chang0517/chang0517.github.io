@@ -28,11 +28,10 @@ last_modified_at: 2021-12-16T15:15:00-05:00
         - 늘려주는 양은 언어마다 다름
 - Types of Data Structure
   
-    ![Untitled](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%80%E1%85%A2%E1%84%85%E1%85%A9%E1%86%AB%20a3c46a992cc14dfb9a5a4313ba7f70cc/Untitled.png)
-    
+    ![자료 1](https://user-images.githubusercontent.com/43038405/146341790-c280f65e-60e7-4f93-8a69-95a535a637ea.png)
     - Linear Data Structure
       
-        ![Untitled](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%80%E1%85%A2%E1%84%85%E1%85%A9%E1%86%AB%20a3c46a992cc14dfb9a5a4313ba7f70cc/Untitled%201.png)
+        ![자료 2](https://user-images.githubusercontent.com/43038405/146342095-5b4b0ba3-5408-4298-ab80-1124793d5e21.png)
         
         - 자료를 구성하는 원소들을 순차적으로 나열시킨 형태
         - 종류
@@ -40,18 +39,18 @@ last_modified_at: 2021-12-16T15:15:00-05:00
                 - 리스트 한 쪽 끝으로만 자료의 Insert, Delete 작업이 이루어짐.
                 - LIFO(Last in, First Out) 방식 - 가장 마지막으로 들어온 데이터부터 빠져나감.
                   
-                    ![Untitled](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%80%E1%85%A2%E1%84%85%E1%85%A9%E1%86%AB%20a3c46a992cc14dfb9a5a4313ba7f70cc/Untitled%202.png)
+                    ![자료 3](https://user-images.githubusercontent.com/43038405/146342093-c0075ac2-9900-4aca-92de-13bfaf350c7b.png)
                     
                 - 활용
                     - Arithmetic Expression (In-fix, Post-fix, Pre-fix 표현)
                       
-                        ![Untitled](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%80%E1%85%A2%E1%84%85%E1%85%A9%E1%86%AB%20a3c46a992cc14dfb9a5a4313ba7f70cc/Untitled%203.png)
+                        ![자료 4](https://user-images.githubusercontent.com/43038405/146342091-7b3c335e-9829-473f-80c7-4d99ac37c5a2.png)
                 
             - Queue
                 - 선형 리스트의 한쪽에서는 Insert 작업이, 다른 한쪽에서는 Delete 작업이 이루어짐
                 - FIFO(First in, First Out) - 가장 먼저 삽입된 자료가 가장 먼저 출력
                   
-                    ![Untitled](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%80%E1%85%A2%E1%84%85%E1%85%A9%E1%86%AB%20a3c46a992cc14dfb9a5a4313ba7f70cc/Untitled%204.png)
+                    ![자료 5](https://user-images.githubusercontent.com/43038405/146342088-a1cbd5ad-d7f3-491e-a234-6b1def982d7b.png)
                     
                 - 용어
                     - Rear - 삽입 작업 이루어지는 쪽
@@ -66,19 +65,18 @@ last_modified_at: 2021-12-16T15:15:00-05:00
             - Linked List
                 - 자료들을 임의의 기억공간에 기억시키되 자료 항목의 순서에 따라 포인터를 이용하여 연결시킨 자료구조
                   
-                    ![Untitled](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%80%E1%85%A2%E1%84%85%E1%85%A9%E1%86%AB%20a3c46a992cc14dfb9a5a4313ba7f70cc/Untitled%205.png)
+                    ![자료 6](https://user-images.githubusercontent.com/43038405/146342087-a99259e9-892f-45ae-ac29-696341aacceb.png)
                     
                 - 장점 : Pointer를 활용한 조작으로 중간에 Insert / Delete가 빠르고 용이
                 - 단점 : 검색 속도, 접근 속도가 느림
     - Non-Linear Data Structure
       
-        ![Untitled](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%80%E1%85%A2%E1%84%85%E1%85%A9%E1%86%AB%20a3c46a992cc14dfb9a5a4313ba7f70cc/Untitled%206.png)
-        
+        ![자료 7](https://user-images.githubusercontent.com/43038405/146342085-e3ef7469-bf65-4b6d-862b-e3bca10962ab.png)
         - 하나의 자료 뒤에 여러 개의 자료가 존재할 수 있는 형태
         - 종류
             - Tree
               
-                ![Untitled](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%80%E1%85%A2%E1%84%85%E1%85%A9%E1%86%AB%20a3c46a992cc14dfb9a5a4313ba7f70cc/Untitled%207.png)
+                ![자료 8](https://user-images.githubusercontent.com/43038405/146342072-49d7996a-c549-496a-abdd-2c26088500b7.png)
                 
                 - 정점(Node)와 선분(Branch)를 이용하여 자료 간 계층적 관계를 표현한 자료구조
                 - 용어
@@ -116,7 +114,7 @@ last_modified_at: 2021-12-16T15:15:00-05:00
                 - 구현 방법
                     - 인접행렬 (Adjacency Matrix)
                       
-                        ![Untitled](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%80%E1%85%A2%E1%84%85%E1%85%A9%E1%86%AB%20a3c46a992cc14dfb9a5a4313ba7f70cc/Untitled%208.png)
+                        ![자료 10](https://user-images.githubusercontent.com/43038405/146342069-15146a3d-8c4f-48b9-963c-4b49ca1820ec.png)
                         
                         → 장점 : 두 점에 대한 연결 정보를 조회할 때 O(1)의 시간복잡도면 가능 / 구현이 간단
                         
@@ -124,7 +122,8 @@ last_modified_at: 2021-12-16T15:15:00-05:00
                         
                     - 인접리스트 (Adjacency List)
                       
-                        ![Untitled](%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%80%E1%85%A2%E1%84%85%E1%85%A9%E1%86%AB%20a3c46a992cc14dfb9a5a4313ba7f70cc/Untitled%209.png)
+                        ![자료 11](https://user-images.githubusercontent.com/43038405/146342058-3b59c758-ade6-4c0d-befd-88a93d5c946b.png)
+
                         
                         → 장점 : 정점들의 연결 정보를 탐색할 때, O(n)의 시간 복잡도면 가능 / 공간 낭비 x
                         
