@@ -64,23 +64,22 @@ last_modified_at: 2021-08-02T16:45:00-05:00
 
 - 2014년에 R-CNN의 등장으로 CNN을 Object Detection 분야에 최초 적용
 
-    [R-CNN](https://www.notion.so/R-CNN-e58b5f2cb6124a00a11780a30e2bd9c4)
+    [R-CNN](https://chang0517.github.io/computer_vision/R-CNN/)
 
     → 이전의 방법보다 30%가 넘는 성능향상을 보임
 
 - R-CNN의 단점을 보완하고자 SPP-Net이 등장
 
-    [SPP-Net](https://www.notion.so/SPP-Net-9b6c02b723634c19a27e1ebabbc55eb2)
+    [SPP-Net](https://chang0517.github.io/computer_vision/SPP-Net/)
 
 - 이전 SPP Net이 가지는 한계점들을 극복하고자 하는 시도에서 출발한 Fast R-CNN이 등장 (대폭 개선)
 
-    [Fast R-CNN](https://www.notion.so/Fast-R-CNN-1f616a1543be42aab0eb9ec5e967f8a1)
+    [Fast R-CNN](https://chang0517.github.io/computer_vision/Fast-R-CNN/)
 
 - Real Time Object Detection의 포문을 연 논문인 Faster R-CNN이 등장
 
     → R-CNN Object Detection의 마지막
-
-    [Faster R-CNN](https://www.notion.so/Faster-R-CNN-9f6efcbdfe6f401cb9364bccdef4a5d6)
+    -> Faster_RCNN (작성예정)
 
 - YOLO
 
