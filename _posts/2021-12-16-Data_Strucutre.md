@@ -5,7 +5,7 @@ excerpt: "Basic Knowledge"
 categories:
   - basic_knowledge
 tags:
-  - basic_knowledge
+  - 
 use_math: true
 last_modified_at: 2021-12-16T15:15:00-05:00
 

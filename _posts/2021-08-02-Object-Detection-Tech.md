@@ -5,7 +5,7 @@ excerpt: "computer_vision"
 categories:
   - computer_vision
 tags:
-  - computer_vision
+  - 
 use_math: true
 last_modified_at: 2021-08-02T16:45:00-05:00
 
